@@ -3,8 +3,8 @@
 #include "base64.h"
 
 // Setup WiFi network
-const char* ssid = "Akhir";
-const char* password = "rifqi123";
+const char* ssid = "*********";
+const char* password = "**********";
 
 // read sensor
 const int sensorPin = A0;
@@ -12,10 +12,10 @@ int speakerPin = D5;
 int state = 0;
 
 // Twilio Parameter
-String account_sid = "ACef9570140ba9f1e592d0a81c0d400fb6";
-String auth_token = "b3b276af1b393972ec055b3da5212ae2";
-String from = "14155238886";
-String to = "6283816592112";
+String account_sid = "*********************************";
+String auth_token = "********************************";
+String from = "*************";
+String to = "***********";
 String body = "Ada penyusup masuk kerumah mu!";
 
 void setup() {
