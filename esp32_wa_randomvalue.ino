@@ -36,7 +36,7 @@ void loop() {
  
     int nilai = random(29,37);
     String data = (String) nilai;
-    String link = "https://jagorobot.pythonanywhere.com/kirimwa?nilai=" + data;
+    String link = "https://rifqi123.pythonanywhere.com/kirimwa?nilai=" + data;
     
     http.begin(link,"16 BA B9 9E 77 4C FF 0B 25 07 DE F9 AC 1A 23 E3 1A B2 AE EB");
     int httpCode = http.GET();
